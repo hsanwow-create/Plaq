@@ -13,7 +13,7 @@ local env = (getgenv and getgenv()) or _G
 if env.__ANT_STOP then pcall(env.__ANT_STOP) end
 
 local cfg = {
-    Key = env.OPENROUTER_KEY or "PUT_OPENROUTER_KEY_HERE", -- FILL: sk-or-...  (don't share the script with the key inside)
+    Key = env.OPENROUTER_KEY or "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", -- FILL: sk-or-...  (don't share the script with the key inside)
     Model = "google/gemini-2.5-flash",
     Interval = 6,
     MaxTokens = 1000,
